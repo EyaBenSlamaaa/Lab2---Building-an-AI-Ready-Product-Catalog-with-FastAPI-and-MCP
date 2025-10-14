@@ -25,63 +25,61 @@ Copier le code
 
 ## Installation et setup
 
-### 1. Cloner le dépôt
-
-```bash
+1️⃣ Cloner le dépôt et entrer dans le projet
 git clone <votre-repo-url>
 cd product-catalog-lab
-2. Créer et activer un environnement virtuel
-bash
-Copier le code
+
+2️⃣ Créer et activer un environnement virtuel
 python -m venv venv
 # Windows
 venv\Scripts\activate
 # Linux / macOS
 source venv/bin/activate
-3. Installer les dépendances
-bash
-Copier le code
+
+3️⃣ Installer les dépendances
 pip install fastapi[all] uvicorn fastmcp
-Part 1: FastAPI Product Catalog
+
+4️⃣ Part 1: FastAPI Product Catalog
 Démarrer le serveur
-bash
-Copier le code
 uvicorn main:app --host localhost --port 8000 --reload
+
 Tester les endpoints
-Lister tous les produits :
 
-bash
-Copier le code
+Lister tous les produits
+
 curl http://localhost:8000/products
-Récupérer un produit par ID :
 
-bash
-Copier le code
+
+Récupérer un produit par ID
+
 curl http://localhost:8000/products/1
-Swagger UI : http://localhost:8000/docs
 
-OpenAPI schema :
 
-bash
-Copier le code
+Swagger UI
+
+http://localhost:8000/docs
+
+OpenAPI schema
+
 curl http://localhost:8000/openapi.json > openapi.json
-Part 2: MCP Server (FastMCP)
+
+5️⃣ Part 2: MCP Server (FastMCP)
 Démarrer le serveur MCP
+
 Dans un nouveau terminal :
 
-bash
-Copier le code
 venv\Scripts\activate
 python mcp_server.py
+
+
 Outils exposés : list_products et get_product.
 
 Configurer Claude Desktop
+
 Ouvrir Claude Desktop → Paramètres → Développeur → Éditer config
 
 Ajouter la configuration MCP :
 
-json
-Copier le code
 {
   "mcpServers": {
     "product-catalog": {
@@ -90,14 +88,14 @@ Copier le code
     }
   }
 }
+
+
 Redémarrer Claude Desktop.
 
-Activer les outils dans un chat :
-
-nginx
-Copier le code
+Activer les outils dans un chat
 Recherche et outils → Sélectionnez "product-catalog-mcp"
-Tester les requêtes :
+
+Tester les requêtes
 
 Lister tous les produits
 
