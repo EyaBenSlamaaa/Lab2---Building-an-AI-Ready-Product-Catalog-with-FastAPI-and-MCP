@@ -100,3 +100,8 @@ Tester les requêtes
 Lister tous les produits
 
 Récupérer un produit par ID (ex. 2)
+
+
+
+
+
