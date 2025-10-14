@@ -28,8 +28,8 @@ Copier le code
 ### 1. Cloner le dépôt
 
 ```bash
-   git clone <votre-repo-url>
-   cd product-catalog-lab
+git clone <votre-repo-url>
+cd product-catalog-lab
 2. Créer et activer un environnement virtuel
 bash
 Copier le code
