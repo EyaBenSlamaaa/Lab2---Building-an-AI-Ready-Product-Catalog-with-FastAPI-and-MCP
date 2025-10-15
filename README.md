@@ -98,8 +98,11 @@ Tester les requêtes
     Lister tous les produits
 
     Récupérer un produit par ID (ex. 2)
-
+    
+<img width="1915" height="1066" alt="Capture d'écran 2025-10-15 003632" src="https://github.com/user-attachments/assets/10f2a629-35fb-4f06-b7f5-4cd439cd71a3" />
 <img width="1916" height="1069" alt="Capture d'écran 2025-10-15 003639" src="https://github.com/user-attachments/assets/8f2bb37e-77a7-4aa9-9222-139035801dd4" />
+
+
 
     
 
