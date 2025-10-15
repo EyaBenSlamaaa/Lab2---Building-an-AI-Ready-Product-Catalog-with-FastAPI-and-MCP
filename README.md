@@ -99,6 +99,10 @@ Tester les requêtes
 
     Récupérer un produit par ID (ex. 2)
 
+<img width="1916" height="1069" alt="Capture d'écran 2025-10-15 003639" src="https://github.com/user-attachments/assets/8f2bb37e-77a7-4aa9-9222-139035801dd4" />
+
+    
+
 
 
 
