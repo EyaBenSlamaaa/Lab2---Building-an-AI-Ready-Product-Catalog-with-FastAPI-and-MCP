@@ -95,9 +95,9 @@ Activer les outils dans un chat
 
 Tester les requêtes
 
-Lister tous les produits
+    Lister tous les produits
 
-Récupérer un produit par ID (ex. 2)
+    Récupérer un produit par ID (ex. 2)
 
 
 
